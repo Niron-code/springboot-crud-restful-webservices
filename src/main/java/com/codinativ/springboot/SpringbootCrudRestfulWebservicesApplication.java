@@ -1,13 +1,13 @@
-package com.Spring.StudentCRUD;
+package com.codinativ.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StudentCrudApplication {
+public class SpringbootCrudRestfulWebservicesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentCrudApplication.class, args);
+		SpringApplication.run(SpringbootCrudRestfulWebservicesApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.Spring.StudentCRUD;
+package com.codinativ.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
