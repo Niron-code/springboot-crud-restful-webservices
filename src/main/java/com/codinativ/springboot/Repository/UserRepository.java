@@ -1,6 +1,6 @@
-package com.Spring.StudentCRUD.Repository;
+package com.codinativ.springboot.Repository;
 
-import com.Spring.StudentCRUD.Domain.Student;
+import com.codinativ.springboot.Entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -8,10 +8,13 @@ import org.springframework.stereotype.Repository;
  * @author Philip Niron Nithianandan
  * email - philip.niron@gmail.com
  * LinkedIn - @philip-niron
- * on 03-January-2022 at 15:58
+ * on 22-May-2022 at 17:27
  * @Project StudentCRUD
  * Happy Coding..!
  */
+
 @Repository
-public interface StudentRepository extends JpaRepository<Student, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
+
+
 }
